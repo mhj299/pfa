@@ -3,7 +3,7 @@ import heroImg01 from "../assets/images/heroimg1.png";
 import heroImg02 from "../assets/images/heroimg2.png";
 import heroImg03 from "../assets/images/heroimg3.png";
 import icon01 from "../assets/images/expert icon.png";
-import featureImg from "../assets/images/car-logo-design-template-43838a5888304929bb9f5bc3eb50626c_screen.jpg";
+import featureImg from "../assets/images/";
 import {Link} from "react-router-dom";
 import {BsArrowRight,} from "react-icons/bs";
 //import ServiceList from '../components/Services/ServiceList';
