@@ -3,9 +3,9 @@ import heroImg01 from "../assets/images/heroimg1.png";
 import heroImg02 from "../assets/images/heroimg2.png";
 import heroImg03 from "../assets/images/heroimg3.png";
 import icon01 from "../assets/images/expert icon.png";
-import featureImg from "../assets/images/";
 import {Link} from "react-router-dom";
 import {BsArrowRight,} from "react-icons/bs";
+//import ExpertList from '../components/Experts/ExpertList';
 //import ServiceList from '../components/Services/ServiceList';
 
 const Home = () => {
@@ -72,6 +72,7 @@ const Home = () => {
       </div> 
       </div>
 </section>
+<hr></hr>
 {/* hero section end */}
 <section>
   <div className='container'>
@@ -166,7 +167,7 @@ mx-auto flex items-center justify-center group hover:bg-primaryColor hover:borde
 
   
 </section>
-{/* feature section */}
+{/* feature section star */}
 <section>
   <div className='container'>
     <div className='flex items-center justify-between flex-col lg:flex-row'>
@@ -185,24 +186,45 @@ mx-auto flex items-center justify-center group hover:bg-primaryColor hover:borde
             use the online scheduling tool to select an appointment time.
           </li>
         </ul>
-     <Link to='/'><button className='btn'>Learn More</button></Link>
+     <Link to='/'>
+      <button className='btn'>Learn More</button>
+      </Link>
 
       </div>
+      {/* feature img */}
       <div className='relatibe z-10 xl:w-[770px] flex justify-end mt-[50px] lg:mt-0'>
-        <img src={"featureImg"} className='w-3/4 ' alt=''></img>
+        <img src={"featureImg"} className='w-3/4 ' alt=''/>
+
+
+
+        
       </div>
       
+
 
     </div>
   </div>
 
 </section>
-
-
+{/* feature section end  */}
+{/* our great Experts */}
+<section>
+  <div className='container'>
+  <div className='xl:w-[470px] mx-auto'>
+    <h2 className='heading text-center'>Our  Great Experts </h2>
+    <p className='text_para text-center'> 
+    Our Auto Care system offers many methods to an excellent car.   
+    </p>
+   </div>
+   {/* nadi lel expertlist  */} 
+  </div>
+</section>
+{/* our great Experts */}
 
 </>
   );
     
 };
+
 
 export default Home;
